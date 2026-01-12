@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCN Shop | Low Prices</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav-main">
+            <div class="logo" onclick="showPage('home')">NCN Shop</div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search NCN Shop...">
+                <button onclick="handleSearch()">Search</button>
+            </div>
+            <div class="nav-links">
+                <span id="userGreeting" onclick="showPage('login')">Hello, Sign in</span>
+                <span onclick="showPage('cart')">Cart (<span id="cartCount">0</span>)</span>
+                <span id="adminNavLink" style="display: none;" onclick="showPage('admin')">Admin Panel</span>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
